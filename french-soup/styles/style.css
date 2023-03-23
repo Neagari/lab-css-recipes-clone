@@ -26,7 +26,14 @@ html {
 }
 
 .container{
-  margin: 10px;
+  /* border: 1px red solid; */
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
 
 }
 
@@ -49,4 +56,20 @@ ul{
 
 ol{
   margin:30px;
+}
+.info{
+  display: flex;
+  justify-content: center;
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.Ingredients{
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 16px;
+  padding-right: 16px;
 }
