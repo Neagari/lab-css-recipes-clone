@@ -1,9 +1,52 @@
-/*Some necessary adjustments*/
-h1, body, html, main {
+@import url(https://fonts.google.com/specimen/Raleway?query=raleway);
+
+/* Some necessary adjustments*/
+body {
   margin: 0;
+  letter-spacing:  0.5px;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: "Raleway", sans-serif;
   font-size: 18px
+}
+
+
+.header{
+  background-image: url("../images/soup.jpg");
+  background-size:cover;
+  background-position: center;
+  height: 400px;
+  color: #f6f3f3;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f6f3f3;
+  
+}
+
+.container{
+  margin: 10px;
+
+}
+
+hr{
+  width:inherit;
+  margin: 30px;
+}
+
+p{
+  margin:30px;
+}
+
+h3{
+  margin:50px;
+}
+
+ul{
+  margin:30px;
+}
+
+ol{
+  margin:30px;
 }
